@@ -22,7 +22,7 @@ const SubNavbar = () => {
       {!isMobile && (
         <div className="desktop-subnavbar">
           <div className="left-section">
-            <span>Movies</span>
+            <span>ovies</span>
             <span>Stream</span>
             <span>Events</span>
             <span>Plays</span>
