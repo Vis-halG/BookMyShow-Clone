@@ -1,0 +1,23 @@
+.container {
+    background-color: #f0f0f0;
+    width: 98%;
+    margin: 5% auto;
+    max-width: 1490px;
+   align-items: center;
+  
+    
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  /* Adjust image styles for smaller screens */
+  @media (max-width: 768px) {
+    .responsive-image {
+   display:none;
+    }
+  }
+  

@@ -1,0 +1,40 @@
+.trending-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .trending-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .trending-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    gap: 16px; /* Space between items */
+  }
+  
+  .trending-item {
+    display: inline-block; /* Makes the width depend on content */
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  .trending-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d63384;
+    margin-bottom: 8px;
+  }
+  
+  .trending-category {
+    font-size: 14px;
+    color: #666;
+  }
+  

@@ -1,0 +1,95 @@
+/* Social Styles */
+.social {
+    background-color: #333; /* Dark background */
+    color: #ccc; /* Light text */
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top horizontal line */
+  .social-top-line {
+    width: 90%;
+    height: 1px;
+    background-color: #555;
+    margin: 0 auto 20px;
+  }
+  
+  /* Social logo section */
+  .social-logo {
+    margin-bottom: 15px;
+  }
+  
+  .social-logo-image {
+    max-width: 200px; /* Adjustable width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Social icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 20px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    color: #ccc;
+    background-color: #404043; /* Circle background color */
+    width: 50px; /* Circle size */
+    height: 50px; /* Circle size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes the background circular */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-icons i:hover {
+    background-color: #ff4c61; /* Highlight color on hover */
+    color: #fff; /* Icon color on hover */
+  }
+  
+  /* Social text */
+  .social-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #aaa;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .social-text p:last-child {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .social-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Adjust as needed */
+  }
+  
+  .social-top-line {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Line thickness */
+    background-color: #444; /* Line color */
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .social-logo {
+   
+    padding: 5px; /* Optional: Adds spacing around the logo */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .social-logo-image {
+    height: 40px; /* Adjust as needed */
+  }
+  

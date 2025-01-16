@@ -1,0 +1,112 @@
+.premiere-page {
+  font-family: Arial, sans-serif;
+  background-color: #2b3149;
+  color: #fff;
+  padding: 20px;
+  min-height: 50vh;
+  text-align:left;
+}
+
+.premiere-header {
+ 
+  margin-bottom: 30px;
+}
+
+
+.premiere-section h2 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  
+}
+
+.premiere-section p {
+  font-size: 16px;
+  
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.premiere-slider-container {
+  position: relative;
+}
+
+.premiere-slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.premiere-card-wrapper {
+  flex: 0 0 auto;
+  
+  width: 200px;
+}
+
+.premiere-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.premiere-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.premiere-badge {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.premiere-card-details h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+  
+}
+
+.premiere-card-details p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.premiere-arrow-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+.premiere-arrow-button:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+@media (max-width: 768px) {
+  .premiere-header img{
+    width:55500px;
+  }
+  .premiere-slider {
+    gap: 15px;
+  }
+}

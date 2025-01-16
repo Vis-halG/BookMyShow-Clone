@@ -1,0 +1,61 @@
+/* General SubNavbar Styling */
+.subnavbar {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Desktop SubNavbar */
+  .desktop-subnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+  }
+  
+  .left-section, .right-section {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Mobile SubNavbar - Below Another Component */
+  .mobile-subnavbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: relative; /* No z-index */
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .mobile-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #ff0000;
+  }
+  span{
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Hide Desktop SubNavbar on Mobile */
+  @media (max-width: 768px) {
+    .desktop-subnavbar {
+      display: none;
+    }
+  span{
+    font-size: 0.75rem;
+    color: #333;
+  }
+  }
+  

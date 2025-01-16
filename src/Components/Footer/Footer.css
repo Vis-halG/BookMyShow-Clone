@@ -1,0 +1,114 @@
+/* Footer Container */
+.footer {
+    background-color: #333;
+    color: #ccc;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px 0;
+    
+  }
+  
+  /* Top Section */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 20px;
+    color: white;
+    font-size:0.8rem;
+  
+  }
+  .footer-top p{
+    width:80%;
+  }
+  .list-icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .list-icon i {
+    color: white;
+  }
+  
+  .contact-btn {
+    background-color: #ff4c61;
+    color: #fff;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contact-btn:hover {
+    background-color: #e63c50;
+  }
+  
+  /* Middle Section: Icon Container */
+  .footer-middle {
+    font-size:1.2rem;
+    background-color: #444;
+    padding:40px 0;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icon-section i {
+    font-size: 3rem;
+    margin-bottom: 8px;
+    color: #9e9ea3;
+    
+  }
+  
+  .icon-section span {
+    color: #ccc;
+    font-size: 0.75rem;
+  }
+  
+  /* Hover Effect: Both icon and text change color */
+  .icon-section:hover i,
+  .icon-section:hover span {
+    color: white;
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h4 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(199, 193, 193);
+  }
+  
+  .section p {
+    font-size: 0.75rem;
+    color: #6b6868;
+  }
+  

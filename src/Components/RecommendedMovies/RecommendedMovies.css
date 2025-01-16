@@ -1,0 +1,160 @@
+.card-slider {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+ 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:3px;
+  margin-top: 0px;
+  font-weight:bold;
+}
+
+.card-slider h2 {
+  margin: 0;
+}
+
+.card-slider h4 {
+  cursor: pointer;
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+}
+
+.card-wrapper {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  
+}
+
+.card-content {
+  padding: 0px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+  margin-left: 10px;
+}
+
+.card-details {
+  text-align:left;
+  margin-top: 5px;
+margin-left:10px;
+}
+
+.card-details h3 {
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.card-details p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+/* Right Arrow Button */
+.arrow-button {
+  position: absolute;
+  right: -15px;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.arrow-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .card-slider {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .arrow-button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .slider {
+    gap: 0; /* Remove the gap between cards */
+    padding: 0; /* Ensure no padding on the container */
+  }
+
+  .card-wrapper {
+    margin: 0; /* Remove any extra margin */
+    flex: 0 0 calc(100% / 2.5); /* Adjust card width to fit tightly */
+  }
+
+  .card {
+    width: 90%; /* Ensure cards take full width of their wrapper */
+    margin: 0; /* Remove extra margin around the card */
+  }
+
+  /* Reduce text sizes for mobile */
+  .card-content p {
+    font-size: 12px; /* Smaller font for card content */
+    margin-left: 5px; /* Adjust left margin for smaller text */
+  }
+
+  .card-details h3 {
+    font-size: 14px; /* Slightly smaller title */
+    margin: 5px 0;
+  }
+
+  .card-details p {
+    font-size: 12px; /* Smaller genre text */
+    margin: 0;
+  }
+}
