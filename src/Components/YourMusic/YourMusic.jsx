@@ -102,7 +102,7 @@ const CardSlider = () => {
   return (
     <div className="card-slider">
       <div className="header">
-        <h2>Recommended Movies</h2>
+        <h2>Your Music</h2>
         <h4>See All</h4>
       </div>
 
