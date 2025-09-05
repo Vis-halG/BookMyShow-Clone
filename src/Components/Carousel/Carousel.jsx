@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Carousel.css";
 
+// Image list for the carousel
 const images = [
   "https://assets-in.bmscdn.com/promotions/cms/creatives/1736346780175_webshowcase1240x300keinemusik.jpg",
   "https://assets-in.bmscdn.com/promotions/cms/creatives/1735642019665_revisedajioluxeweekendbanners1240x300.jpg",
