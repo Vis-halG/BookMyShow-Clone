@@ -10,6 +10,7 @@ const images = [
 ];
 
 const Carousel = () => {
+    // Track the current slide index
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
