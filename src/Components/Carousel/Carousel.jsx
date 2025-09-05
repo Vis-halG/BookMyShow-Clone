@@ -30,7 +30,7 @@ const Carousel = () => {
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
-
+// Decide the slide's position (active, next, prev, hidden)
   const getSlideStyle = (index) => {
     const offset = index - currentIndex;
     if (offset === 0) return "carousel-slide active";
