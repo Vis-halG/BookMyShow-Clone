@@ -21,6 +21,7 @@ const Carousel = () => {
     return () => clearInterval(interval);
   }, []);
 
+  // Go to previous slide
   const goToPrevSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
