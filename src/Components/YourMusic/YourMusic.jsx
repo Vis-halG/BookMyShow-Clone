@@ -73,7 +73,7 @@ const CardSlider = () => {
         genre: "Grand Theatre",
         rating: "Sat,",
         votes: "1 Feb",
-        image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxIEZlYg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00425285-gbyuhnsjbw-portrait.jpg",
+        image: "https://imgs.search.brave.com/QsjJ-mHFirqXSeoMj68KBsGisV-lMepTFYTXktmEQok/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1HTm1OMkl4/T1dRdE9HRXhPQzAw/WkRZMExXRTROamN0/TldZMk5UVTBNbVk0/WXpkaVhrRXlYa0Zx/Y0djQC5qcGc",
       },
       
   ];
